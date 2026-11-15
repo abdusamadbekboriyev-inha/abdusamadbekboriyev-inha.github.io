@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samadbek | Personal Homepage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <strong class="logo">Samadbek.</strong>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" type="button">Dark Mode</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="hero">
+      <p class="tag">FIRST-YEAR IT STUDENT</p>
+      <h1>Hi, I'm <span>Samadbek</span>.</h1>
+      <p>I am a first-year IT student at Inha University in Tashkent learning how computers, networks, and software work.</p>
+      <a href="#projects" class="btn">Explore my projects</a>
+    </section>
+
+    <section id="courses">
+      <h2>My Courses</h2>
+      <div class="grid">
+        <div class="card"><h3>Introduction to IT</h3><p>Networking layers, DNS, HTTP/HTTPS, and Linux basics.</p></div>
+        <div class="card"><h3>Object-Oriented Programming</h3><p>C++ fundamentals, control flow, and problem solving.</p></div>
+        <div class="card"><h3>Calculus</h3><p>Limits, derivatives, and mathematical analysis.</p></div>
+        <div class="card"><h3>English</h3><p>Academic writing and technical communication.</p></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects: Lab 8a Network Detective</h2>
+      <div class="card">
+        <p>Investigated how data travels across the Internet using Wireshark, traceroute, dig, and curl:</p>
+        <ul>
+          <li>Inspected encapsulation across Ethernet, IP, UDP, and DNS headers.</li>
+          <li>Traced packet hops and measured round-trip connection delays.</li>
+          <li>Verified how HTTPS and TLS certificates protect passwords compared to plain HTTP.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Student at Inha University in Tashkent &mdash; GitHub: <strong>github.com</strong></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
